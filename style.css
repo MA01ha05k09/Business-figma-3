@@ -1,0 +1,423 @@
+.main-northwest-section{
+    background-image: url("./Images/northwest.png");
+    background-size: cover;
+    display: flex;
+}
+/***** navbar *****/
+
+.main-navbar {
+  display: flex;
+  padding: 10px 100px;
+  background: rgba(0, 0, 0, 0.4);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  color: white;
+}
+.navbar-log {
+  width: 100px;
+}
+.navbar-left-div-main {
+  width: 50%;
+  display: flex;
+}
+.navbar-right-div-main {
+  width: 100%;
+}
+.main-navbar-ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.main-navbar-ul li {
+  list-style: none;
+}
+.main-navbar-ul li:hover {
+  color: #00ccff;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.navbar-button {
+  background: #00ccff;
+  padding: 10px 20px;
+  border: none;
+}
+
+/***** End navbar *****/
+
+
+.northwest-content-main{
+    color: white;
+    padding: 80px;
+}
+.main-empty{
+    width: 100%;
+}
+
+.Northwest-h2-text h2{
+    font-size: 50px;
+    font-family: Manrope;
+}
+.northwest-buttons{
+    margin-top: 50px;
+}
+.content-us-button{
+color: white;
+ font-family: Poppins;
+ background: #40B4DE;
+ padding: 5px 15px;
+}
+.our-service-button{
+    color: white;
+ font-family: Poppins;
+ background: transparent;
+ padding: 5px 15px;
+ border: 1px solid white;
+}
+
+/* about us */
+.main-about-us{
+    padding: 100px;
+    display: flex;
+}
+.about-us-content-main{
+    width: 100%;
+}
+.about-us-image{
+    width: 100%;
+}
+.about-us-content-main{
+    padding: 0px 50px;
+}
+.main-ul{
+    list-style: none;
+    display: flex   ;
+    justify-content: space-between;
+    background: #2a2a2a;
+    color: white;
+    height: 60px;
+    margin: auto;
+    text-align: center;
+}
+.navbar-button{
+    background: #0fb6d8;
+    color: white;
+    border: none;
+  
+}
+.main-about-us-div{
+    display: flex;
+    padding: 80px;
+}
+.about-us-text-main-div{
+    width: 100%;
+    padding: 20px;
+}
+.ab-div{
+    color: #14ade0;
+    
+}
+.main-bg-color{
+    background-color: #2a2a2a ;
+}
+.about-us-text-div{
+font-size: 40px;
+color:white;
+background-color:  2a2a2a ;
+}
+.about-us-pareghaph-div{
+    color:white;
+}
+.read-more-button-div{
+   margin-top: 20px; 
+}
+
+/***** client feedback *****/ 
+.client-feedback-main-div{
+    display: flex;
+    padding: 100px;
+    background-image: url("./Images/Rectangle\ 3904.png");
+    height: 500px;
+    background-size: cover;
+    color: white;
+    position: relative;
+}
+.client-feedback-main-div::before{
+    content: "";
+    background-color: rgba(0, 0, 0, 0.9);
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+.client-feedback-left-div{
+    z-index: 2;
+}
+.client-feedback-right-div{
+    z-index: 2;
+}
+
+.width100{
+width: 100%;
+}
+.client-feedback-right-side{
+    background-color: black;
+    padding: 10px;
+}
+.client-feedback-left-side-tesimonial{
+    color: #0fb6d8;
+}
+.client-feedback-right-button{
+      width: 100%;
+  padding: 30px;
+  text-align: right;
+
+}
+.right-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #0fb6d8;
+  border:none ;
+  color: white;
+}
+ /***** End client feedback *****/
+ .Client_review-main {
+    display: flex;
+    /* justify-content: space-around; */
+    background: #2a2a2a;
+    font-family: Poppins;
+  }
+  
+  .main_client_image_div {
+    height: 550px;
+    width: 900px;
+    overflow: hidden;
+  }
+  
+  .Client_review_image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: grayscale(100%);
+  }
+  
+  .main_client_image_div {
+    /* width: 100%; */
+  }
+  .Client_review_card_main {
+    /* width: 100%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    margin: 0px 50px;
+  }
+  .cleint_review_Card {
+    background: #000;
+    padding: 10px;
+    width: 250px;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .cleint_review_Card h3 {
+    font-size: 40.525px;
+    font-weight: 400;
+  }
+  .cleint_review_Card p {
+    font-size: 24.771px;
+    font-weight: 400;
+  }
+  
+  /***** Trending_technologies_ *****/ 
+  
+  .Trending_technologies_main{
+      position: relative;
+      background-image: url("https://s3-alpha-sig.figma.com/img/34d7/3157/896bd6f1147865e3804261eda6616b55?Expires=1707091200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=LRFKjxSAJx~dkuns6ZuuiSCfnZlDLqL820MqPk4nzbStWryWIHWmRD0jM6unCL8yOBYjmWUb2YCi24c-A~ZXRD4Hkk9eg1ptDHZWGrIbClp-opcJHVD5R8eFHqy~RJeL~-x9rurp2c6RT6FAgf1Lgipa7ALsCB83jSSspixkbhqWUeGJq9IY2OKjmmt27USaw72vJdcxecCXEr13AddLIiDHZ7mJLswmjnkTRgphDr9bepij3pGXZmkC~HY4ENDfDK4LTcUx5H3sgB4zjP2qZ8V88MmBJSmhTcEYJp0XHGKJuWTdN66dNNT80eeTV15q4T9qm8ulDP53-Z2mjx3Okg__");
+      background-position: center;
+      background-size: cover;
+      height: 300px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  .Trending_technologies_main::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0,0.9); 
+      z-index: 1;
+    }
+  .center_image_tranding_technologies{
+      width: 70px;
+  }
+  .center_image_tranding_technologies_2{
+      width: 50px; 
+      height: 50px;
+      height: auto;  
+      margin: -10px;
+      border-radius: 100px 100px;
+  }
+    .Trending_technologies_text{
+      z-index: 2;
+      position: relative;
+      color: #FFF;
+      text-align: center;
+      font-family: Poppins;
+      font-size: 33.767px;
+      font-style: normal;
+      font-weight: 600;
+      padding: 0px 155px;
+    }
+  /***** End Trending_technologies_ *****/
+  
+  .main-div-padding{
+    padding: 50px 100px ;
+}
+  /***** Section *****/ 
+  .main-service-div{
+    background: #4b4b4b;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  .service_card{
+    width: 240px;
+    background: #000000f3;
+    padding: 22px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+  }
+  .service-card-button{
+    color: #00CCFF;
+    text-decoration: underline;
+    margin-top: 10px;
+  }
+  
+  /***** End Section *****/
+  
+  /***** Section client feedback *****/ 
+  .client_feedback_main-div{
+    display: flex;
+    padding: 100px;
+    background-image: url("https://s3-alpha-sig.figma.com/img/34d7/3157/896bd6f1147865e3804261eda6616b55?Expires=1707091200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=LRFKjxSAJx~dkuns6ZuuiSCfnZlDLqL820MqPk4nzbStWryWIHWmRD0jM6unCL8yOBYjmWUb2YCi24c-A~ZXRD4Hkk9eg1ptDHZWGrIbClp-opcJHVD5R8eFHqy~RJeL~-x9rurp2c6RT6FAgf1Lgipa7ALsCB83jSSspixkbhqWUeGJq9IY2OKjmmt27USaw72vJdcxecCXEr13AddLIiDHZ7mJLswmjnkTRgphDr9bepij3pGXZmkC~HY4ENDfDK4LTcUx5H3sgB4zjP2qZ8V88MmBJSmhTcEYJp0XHGKJuWTdN66dNNT80eeTV15q4T9qm8ulDP53-Z2mjx3Okg__");
+    background-size: cover;
+    /* filter: grayscale(100%); */
+    position: relative;
+    height: 500px;
+    color: white;
+  }
+  .client_feedback_main-div::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.9);
+    z-index: 1;
+  }
+  .client_feedback_main-div_second{
+    display: flex;
+    z-index:2;
+  }
+  .client_feedback_lefft_side_div{
+    width: 60%;
+    padding: 40px;
+  
+  }
+  .client_feedback_right_side_div{
+    width: 100%;
+    padding: 40px;
+  }
+  .client_commnet_div{
+    background: black;
+    width: 100%;
+    padding: 30px;
+  
+  }
+  .client_left_heading{
+    color: #00CCFF;
+  
+  }
+  .celint_left_second_heading{
+    font-family: Manrope;
+  }
+  .cleinnt_right_button{
+    background: #00CCFF;
+    padding: 10px 20px;
+    border: none;
+  }
+  .cleint_right_side_button_div{
+    text-align: end;
+    margin-bottom: 40px;
+  }
+  .cleint_rihgt_side_div_second{
+    background: #2A2A2AC7;
+    padding: 20px;
+  
+  }
+   /***** End Section client feedback *****/
+   /***** have question *****/
+
+.main-have-question-div {
+  background: #000;
+  display: flex;
+  color: white;
+  justify-content: space-around;
+  padding: 50px 120px;
+}
+.have-question-left-side {
+  /* padding: 100px; */
+}
+.have-question-right-side {
+  /* width: 50%; */
+}
+.have-question-contact-us-button {
+  padding: 12px 40px;
+  background: #00ccff;
+}
+
+/***** End have question *****/
+   /***** Footer*****/ 
+   
+   .main-footer-div{
+    background: #6f6f6f;
+    display: flex;
+    justify-content: space-between;
+    padding: 100px;
+    color: white;
+   }
+   .footer-left-div{
+    width: 100%;
+   }
+   .footer-icon{
+    width: 50px;
+   }
+   .foter-left-first-div{
+    display: flex;
+    justify-content: space-between;
+   }
+   .footer_left_Second_ul{
+    display: flex;
+    gap: 20px;
+   }
+   li{
+    list-style: none;
+   }
+   .right_footer_div{
+    width: 100%;
+    display: flex;
+   }
+   
+   /***** Footer *****/
+   
